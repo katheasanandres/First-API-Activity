@@ -11,6 +11,8 @@ function getCourses($conn) {
     echo json_encode($data);
 }
 
+// testing to see if this pushes to github lol
+
 function addCourse($conn, $data) {
     $course_name = $data['course_name'];
     $program_id = $data['program_id'];
