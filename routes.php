@@ -86,14 +86,14 @@ switch ($_SERVER['REQUEST_METHOD']) {
 
             default:
                 // Error if no matching POST route found
-                echo json_encode(["error" => "Route not found"]);
+                echo json_encode(["error" => "Route not found (╥ ‸ ╥)"]);
                 break;
         }
         break;
 
     // If the request method is neither GET nor POST
     default:
-        echo json_encode(["error" => "Invalid request method"]);
+        echo json_encode(["error" => "Invalid request method >:("]);
         break;
 }
 ?>
