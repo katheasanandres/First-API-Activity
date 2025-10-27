@@ -93,7 +93,7 @@ switch ($_SERVER['REQUEST_METHOD']) {
 
     // If the request method is neither GET nor POST
     default:
-        echo json_encode(["error" => "Invalid request method >:("]);
+        echo json_encode(["error" => "Invalid request method, input get or post only >:("]);
         break;
 }
 ?>
